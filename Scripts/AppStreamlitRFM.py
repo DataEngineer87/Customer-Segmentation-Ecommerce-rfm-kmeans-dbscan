@@ -259,9 +259,9 @@ if uploaded_file:
     # ===================================================
     # Exportation des segments
     #=====================================================
-    st.subheader("Export")
+    st.subheader("Exportation")
     st.download_button(
-        "Télécharger les données RFM",
+        "Exporter les données clients du segment sélectionné (CSV)",
         data=rfm_filtered.to_csv().encode(),
         file_name="olist_rfm_segments.csv"
     )
