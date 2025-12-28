@@ -25,7 +25,8 @@ st.set_page_config(
 # ==============================================================
 # EN-TÊTE AVEC IMAGE
 # ============================================================
-image_path = "/home/sacko/Documents/SEGMENTATION_ECOMERCE/images/Logo.jpg"
+#image_path = "/home/sacko/Documents/SEGMENTATION_ECOMERCE/images/Logo.jpg"
+image_path = "images/Logo.jpg"
 with open(image_path, "rb") as img_file:
     img_base64 = base64.b64encode(img_file.read()).decode("utf-8")
 
@@ -82,7 +83,7 @@ def prepare_base(df):
         df = df[df["order_status"] == "delivered"]
 
     df = df.drop_duplicates(subset=["order_id", "customer_unique_id"])
-
+Graphiques
     cols_needed = [
         "order_id",
         "customer_unique_id",
