@@ -31,7 +31,9 @@ st.title("Monitoring K-Means – ARI")
 # ============================================================
 # EN-TÊTE AVEC IMAGE
 # ============================================================
-image_path = "/home/sacko/Documents/SEGMENTATION_ECOMERCE/images/Logo.jpg"
+# Chemin relatif vers l’image
+image_path = PROJECT_ROOT/"images"/"Logo.jpg"
+
 with open(image_path, "rb") as img_file:
     img_base64 = base64.b64encode(img_file.read()).decode("utf-8")
 
