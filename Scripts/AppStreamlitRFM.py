@@ -83,7 +83,6 @@ def prepare_base(df):
         df = df[df["order_status"] == "delivered"]
 
     df = df.drop_duplicates(subset=["order_id", "customer_unique_id"])
-Graphiques
     cols_needed = [
         "order_id",
         "customer_unique_id",
@@ -269,4 +268,10 @@ if uploaded_file:
 
 else:
     st.warning("Veuillez importer un fichier CSV pour commencer.")
+
+
+# In[ ]:
+
+
+
 
