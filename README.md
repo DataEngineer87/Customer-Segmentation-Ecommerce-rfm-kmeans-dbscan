@@ -2,7 +2,7 @@
 [Code source GitHub | Démo interactive](https://customer-segmentation-ecommerce-rfm-kmeans-dbscan-ogdvmz6rtytd.streamlit.app/)
 
 ### Démo :
-<img src="images/photo/RFM.png" width="400">
+<img src="images/RFM.png" width="400">
 
 ### CONTEXTE BUSINESS
 **Problématique**
@@ -114,7 +114,7 @@ Fonctionnalités :
 ## Monitoring – Stabilité de la Segmentation
 [Code source GitHub | Démo interactive](https://customer-segmentation-ecommerce-rfm-kmeans-dbscan-kje2pukjdu2t.streamlit.app/)
 ### Démo :
-<img src="images/photo/ARI.png" width="400">
+<img src="images/ARI.png" width="400">
 
 **Objectif du monitoring**
 
