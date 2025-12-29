@@ -162,4 +162,11 @@ Le monitoring est exposé via un dashboard Streamlit interactif :
 **Valeur business**
 
 - Anticipation de la perte de performance
-- Meilleure priorisation clients (VIP 
+- Meilleure priorisation clients (VIP
+
+## Auteur
+**Alseny — Data Scientist confirmé orienté MLOps & GenAI**
+ 
+
+
+ 
